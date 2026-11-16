@@ -1,0 +1,7 @@
+services:
+ backend: 
+  build: .
+  container_name: stackenzo_server_node
+  restart: always
+  ports:
+   - "2004:2004"
